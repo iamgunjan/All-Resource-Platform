@@ -1,0 +1,735 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: #192C2A;
+}
+
+a{
+    text-decoration:none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
+/* NAVBAR */
+
+nav{
+    width: 100%;
+    height: 66px;
+    left: 0px;
+    top: 0px;
+    background: none
+    backdrop-filter: blur(15px);
+}
+
+.navbar{
+    margin: 0px 250px;  
+    background: none;   
+}
+
+.navbar ul{
+    display: flex;
+    text-decoration: none;
+    padding: 30px;
+    justify-content: space-between
+    text-align: center;
+    background: none;
+    padding-left: 170px;
+}
+
+.navbar ul li{
+    text-decoration: none;
+    flex:1;
+    background: none;
+}
+
+.navbar ul li a{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: none;
+    text-align: center;
+}
+
+.navbar ul li a:hover {
+  color: #83B8B3;
+}
+
+/* INTRODUCTION */
+
+.introduction{
+    margin: 90px 230px;
+    display:flex;
+    padding-top: 70px;
+}
+
+.introtext{
+    flex:3;
+    padding-right: 30px;
+}
+
+.introimage{
+    flex:1; 
+}
+
+.introimage img{
+    height: 300px;
+    margin: 20px 0px 20px 40px;
+}
+
+.introimage:hover {
+    transform: scale(1.045);
+    transition: transform .5s;
+}
+
+.introheading{
+  font-family: Raleway;
+  font-weight: Bold;
+  font-size: 100px;
+  color: #FFFFFF;
+}
+
+.intropara{
+    font-family: Raleway;
+    font-weight: semi-bold;
+    display:flex;
+    font-size: 14px;
+    font-style: semibold;
+    color: #83B8B3;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    flex-direction: column;
+}
+
+.intropara1{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  border: none;
+  color: none;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 16px;
+  padding: 0px;
+  width: 140px;
+  height: 42px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span a {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  color: #192C2A;
+  background-color: #FFFFFF;
+  font-weight: Bold;
+  font-family: "Raleway";
+}
+
+.button span a:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span a {
+  padding-right: 15px;
+}
+
+.button:hover span a:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+/* RESOURCES */
+
+.resources{
+    margin: 90px 230px;
+    display:flex;
+    padding-top: 70px;
+}
+
+.resourcetext{
+    flex:3;
+    padding-left: 40px;
+}
+
+.resourceimage{
+    flex:1; 
+}
+
+.resourceimage img{
+    height: 300px;
+    margin: 20px 0px 20px 40px;
+}
+
+.resourceimage:hover {
+    transform: scale(1.045);
+    transition: transform .5s;
+}
+
+.resourceheading{
+  font-family: Raleway;
+  font-weight: Bold;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+
+.resourcepara{
+    font-family: Raleway;
+    font-weight: semi-bold;
+    display:flex;
+    font-size: 14px;
+    color: black;
+    font-style: semibold;
+    color: #83B8B3;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    flex-direction: column;
+}
+
+.resourcepara1{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+}
+
+.button2 {
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  border: none;
+  color: none;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 16px;
+  padding: 0px;
+  width: 140px;
+  height: 42px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  color: #192C2A;
+  background-color: #FFFFFF;
+  font-weight: Bold;
+  font-family: "Raleway";
+}
+
+.button2 span a {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  color: #192C2A;
+  background-color: #FFFFFF;
+  font-weight: Bold;
+  font-family: "Raleway";
+}
+
+.button2 span a:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button2:hover span a {
+  padding-right: 15px;
+}
+
+.button2:hover span a:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* MENTORSHIP */
+
+.mentorship{
+    margin: 90px 230px;
+    display:flex;
+    padding-top: 70px;
+}
+
+.mentortext{
+    flex:3;
+    padding-right: 30px;
+}
+
+.mentorimage{
+    flex:1; 
+}
+
+.mentorimage img{
+    height: 300px;
+    margin: 20px 0px 20px 40px;
+}
+
+.mentorimage:hover {
+    transform: scale(1.045);
+    transition: transform .5s;
+}
+
+.mentorheading{
+  font-family: Raleway;
+  font-weight: Bold;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+
+.mentorpara{
+    font-family: Raleway;
+    font-weight: semi-bold;
+    display:flex;
+    font-size: 14px;
+    color: black;
+    font-style: semibold;
+    color: #83B8B3;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    flex-direction: column;
+}
+
+.mentorpara1{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.button3 {
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  border: none;
+  color: none;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 16px;
+  padding: 0px;
+  width: 140px;
+  height: 42px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button3 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  color: #192C2A;
+  background-color: #FFFFFF;
+  font-weight: Bold;
+  font-family: "Raleway";
+}
+
+.button3 span a {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  color: #192C2A;
+  background-color: #FFFFFF;
+  font-weight: Bold;
+  font-family: "Raleway";
+}
+
+.button3 span a:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button3:hover span a {
+  padding-right: 15px;
+}
+
+.button3:hover span a:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* CONTACT US */
+
+.contactus{
+    margin: 90px 230px;
+    display:flex;
+    padding-top: 70px;
+}
+
+.contacttext{
+    flex:3;
+    padding-left: 40px;
+}
+
+.contactimage{
+    flex:1; 
+}
+
+.contactimage img{
+    height: 300px;
+    margin: 20px 0px 20px 40px;
+}
+
+.contactimage:hover {
+    transform: scale(1.045);
+    transition: transform .5s;
+}
+
+.contactheading{
+  font-family: Raleway;
+  font-weight: Bold;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+
+.contactpara{
+    font-family: Raleway;
+    font-weight: semi-bold;
+    display:flex;
+    font-size: 14px;
+    color: black;
+    font-style: semibold;
+    color: #83B8B3;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    flex-direction: column;
+}
+
+.contactpara1{
+    padding-top: 20px;
+    padding-right: 30px;
+    font-family: Raleway;
+}
+
+.contactpara2{
+    padding-bottom: 20px;
+    padding-right: 30px;
+    font-family: Raleway;
+
+}
+
+.contactpara2:hover {
+  color: #FFFFFF;
+}
+
+.contactpara3{
+    padding-right: 30px;
+    font-family: Raleway;
+}
+
+.contactpara4{
+    padding-bottom: 40px;
+    font-family: Raleway;
+    padding-right: 30px;
+}
+
+.contactpara4:hover {
+  color: #FFFFFF;
+}
+
+/* Footer */
+
+footer{
+    padding-top: 30px;  
+    display:flex;
+    justify-content: baseline;
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid;
+    border-top-color: #E2DCCE;
+}
+
+.fleft{
+    flex: 1;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.fleft a:hover {
+  color: #83B8B3;
+}
+
+.fright{
+    flex:1;
+    position:relative;
+    margin-right: 100px; 
+}
+
+.fright ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.fright ul li{
+    flex: 1;
+}
+
+.fright ul li:hover {
+    transform: scale(1.05);
+    transition: transform .3s;
+}
+
+.fright ul li img{
+    flex:1;
+    height: 27px;
+    justify-content: space-between;
+}
+
+.fright ul li img:hover {
+  color: #FFFFFF;
+}
+
+
+/* RESOURCE */
+
+.resource{
+    margin: 90px 230px;
+    display:flex;
+    padding-top: 70px;
+}
+
+.resourcetext{
+    flex:3;
+    padding-right: 30px;
+}
+
+.resourceimage{
+    flex:1; 
+}
+
+.resourceimage img{
+    height: 300px;
+    margin: 20px 0px 20px 40px;
+}
+
+.resourceimage:hover {
+    transform: scale(1.045);
+    transition: transform .5s;
+}
+
+.resourceheading{
+  font-family: Raleway;
+  font-weight: Bold;
+  font-size: 70px;
+  color: #FFFFFF;
+}
+
+.resourcepara{
+    font-family: Raleway;
+    font-weight: semi-bold;
+    display:flex;
+    font-size: 14px;
+    font-style: semibold;
+    color: #83B8B3;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    flex-direction: column;
+}
+
+.resourcepara1{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+/* DOMAINS */
+.domains{
+    margin: 90px 230px; 
+    padding-top: 90px;
+}
+
+.domainsheading{
+    font-family: Raleway;
+    font-weight: Bold;
+    font-size: 40px; 
+    color: white;
+    text-align: center;
+    padding-bottom: 30px; 
+}
+
+.domainscards{
+    display:flex;
+    text-align: center;
+}
+
+.domainsscol1 {
+    flex: 1;
+    text-align: center;
+    padding-right: 30px;
+    color: #83B8B3;
+}
+
+.domainscol2 {
+    flex: 1;
+    text-align: center;
+    padding-right: 0px;
+    color: #83B8B3;
+}
+
+.domainsimg img{
+    height: 180px;
+    width: 266px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 5px;
+}
+
+.domainsname{
+    font-family: Raleway;
+    font-weight: Bold;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.domainsname a:hover {
+  color: white;
+}
+
+.domainsimg img:hover{
+    transform: scale(1.045);
+    transition: transform .5s;
+}
+
+/* MENTORSHIP */
+
+.testimonials{
+    margin: 90px 230px; 
+    padding-top: 60px;
+}
+
+.mentorshipheading{
+    font-family: Raleway;
+    font-weight: Bold;
+    font-size: 50px;
+    color: white;
+    padding-bottom: 100px; 
+    text-align: center;
+}
+
+.testcard{
+    display:flex;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 4px 10px 0px #111E1D;
+    margin: 20px 0px 40px 0px;
+    border-radius: 5px;
+}
+
+.testimg{
+    flex:1;
+    background: none;
+}
+
+.testimg a{
+    background: none;
+}
+
+.testimg img{
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+    background: none;
+}
+
+.testimg img:hover{
+    transform: scale(1.045);
+    transition: transform .5s;
+}
+
+.testcontent{
+    flex:4;
+    background: none;
+}
+
+.testhead{
+    display:flex;
+    justify-content: space-between;
+    margin: 15px 0px;
+    background-color: white;
+}
+
+.testauthor{
+    font-family: Raleway;
+    font-weight: Bold;
+    font-size: 18px;
+    background-color: white;
+    color: #192C2A;
+    line-height: 23px;
+    letter-spacing: 0.03em;
+    flex:1;
+}
+
+.testauthor a{
+    text-decoration: none;
+    background: none;
+}
+
+.testauthor a:hover {
+    color: #192C2A;
+}
+
+.testdesignation{
+    font-family: Raleway;
+    font-weight: SemiBold;
+    font-size: 14px;
+    padding: 0px 10px 0px 0px;
+    background-color: white;
+    color: #192C2A;
+    flex:2;
+    line-height: 23px;
+    letter-spacing: 0.03em;
+}
+
+.testdate a{
+    font-family: Raleway;
+    font-weight: Bold;
+    padding: 0px 10px 0px 0px;
+    background-color: white;
+    flex:1;
+    letter-spacing: 0.03em;
+    color: #192C2A;
+    font-size: 14px;
+    display:flex;
+    line-height: 23px;
+    justify-content: right;
+}
+
+.testdetails p{
+    font-family: Raleway;
+    font-weight: SemiBold;
+    margin: 15px 0px;
+    letter-spacing: 0.03em;
+    line-height: 23px;
+    font-size: 14px;
+    color: #192C2A;
+    background-color: white;
+}
